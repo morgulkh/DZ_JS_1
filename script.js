@@ -35,8 +35,8 @@ if ( qwe % 2 == 0 ) alert('вы ввели четное число');
 //6
 
 let rty = prompt('введите символ');
-if ( rty * 1 == rty) alert('вы ввели число')
-if ( rty * 1 != rty) alert('вы ввели не число');
+if ( isNaN(rty) == false) alert('вы ввели число');
+if ( isNaN(rty) == true) alert('вы ввели не число');
 
 //7
 
