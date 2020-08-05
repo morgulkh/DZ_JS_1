@@ -16,7 +16,7 @@ alert(`What\`s up,  ${firstName} ${lastName}`);
 //3
 
 let x = prompt('введите первое число');
-let y = prompt('введите второе число');
+let y = prompt( 'введите второе число');
 alert( `${x * y}, ${x / y}, ${x - y}, ${+x + +y}` );
 
 //4
